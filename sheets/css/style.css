@@ -1,0 +1,84 @@
+/* this is in CSS */
+/* 
+1. get hero header and hopefully the rest of the page to flow smoothly to work
+2. attach corresponding links to both nav bars that link to
+2.-a. coding portfolio with sub-sections body, current, and (now tentative)archive
+2.-b. About Me blurb with general facts, history, my interests/hobbies and how coding div's them all
+*/
+body {
+	font-family: "Arial Narrow Bold";
+	position: relative;
+	/* margin: auto; */
+	overflow-x: hidden;
+	width: 100vw;
+	z-index: 0;
+	/* margin-left: 200px;
+	margin-right: 200px; */
+}
+#bckgrdh4ximg {
+	z-index: -4;
+	/* height: 100%;
+    width: 100%; */
+	/* size: 200%; */
+	position: fixed;
+	/* top: 200px; */
+	/* margin: auto;
+    display: block; */
+}
+header {
+	position: relative;
+	background-color: seashell;
+	/* background-color: b */
+	border-bottom-color: black;
+	z-index: 3;
+	height: 1000px;
+	display: flex;
+	/* flex: column; */
+	/* flex: center; */
+	z-index: 3;
+	/* padding-top: 50px; */
+}
+
+#trans {
+	width: 100vw;
+	height: 150px;
+	background-color: transparent;
+	position: relative;
+	display: block;
+	z-index: 3;
+}
+.hero {
+	position: relative;
+	display: none;
+}
+
+#flex {
+	position: relative;
+	z-index: 3;
+	position: absolute;
+	background-color: darkslategray;
+	top: 50px;
+	left: 150px;
+	height: 400px;
+	width: 950px;
+	text-align: center;
+	color: white;
+	font-weight: 600;
+	font-size: 2em;
+}
+
+.hero-inner {
+	z-index: 3;
+	width: 100vw;
+	height: 600px;
+	background-color: darkslategray;
+	border-block-end-color: black;
+	position: absolute;
+	/* display: flex; */
+	text-align: center;
+}
+
+.container1 {
+	bottom: 0;
+	z-index: 0;
+}

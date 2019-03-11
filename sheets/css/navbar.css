@@ -1,0 +1,49 @@
+/* https://www.w3schools.com/howto/howto_js_navbar_sticky.asp */
+/* w3 helpin me out with nav-bars. */
+body {
+	font-family: helvetica;
+	position: relative;
+	position: center;
+	/* margin: auto; */
+	overflow-x: hidden;
+	/* overflow-y: hidden; */
+	width: 100vw;
+	z-index: 1;
+}
+
+#navbar {
+	z-index: 4;
+	height: 67px;
+	/* padding: 5px; */
+	position: flex;
+	flex: row;
+}
+
+.sticky {
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
+.sticky + content {
+	padding-top: 60px;
+}
+
+a {
+	display: inline;
+	flex: space-around;
+	padding-left: 340px;
+	padding-right: 340px;
+	/* font-size: 22px; */
+	font-size: larger;
+	font-stretch: expanded;
+	font-weight: 500;
+}
+
+#contact {
+	text-align: right;
+}
+
+#newPage {
+	color: lightgoldenrodyellow;
+	font-weight: 800;
+}

@@ -1,5 +1,17 @@
 /* https://www.w3schools.com/howto/howto_js_navbar_sticky.asp */
-/* w3 helpin me out with nav-bars. */
+
+/* ----------------------------------------------------------------------- */
+/* This did not need to be its own file and I'm not sure why it is, but we'll keep it for the time being */
+/* I'm currently working on the logistics of parallax's in a separate file with just divs */
+/* I'e done them twice and thrice before, but I want to make sure I have it DOWN before I do multiple on one page */
+/* Multiple that also each involve overlays and videos and animations... scary! */
+/* ----------------------------------------------------------------------- */
+
+/* ----------------------------------------------------------------------- */
+/* As for the nav-bar, I want the top 'original' one to stay there -- that's fine. */
+/* Possible 'hidden sticky' one, but that might be too much if I actually end up doing everything else, too */
+/* ----------------------------------------------------------------------- */
+
 body {
 	font-family: helvetica;
 	position: relative;

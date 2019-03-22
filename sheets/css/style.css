@@ -15,16 +15,19 @@ body {
 	/* margin-left: 200px;
 	margin-right: 200px; */
 }
+
+/* --------------------------------------------------------------------------------------- */
+/* The name I gave this file is mind-numbingly stupid and asinine.
+However, I'm keeping it, to log my learning.
+For the TA's: Jake sees how 'personalized' and 'humorous' class- and id-names
+can and do back-fire
+/* --------------------------------------------------------------------------------------- */
+
 #bckgrdh4ximg {
 	z-index: -4;
-	/* height: 100%;
-    width: 100%; */
-	/* size: 200%; */
 	position: fixed;
-	/* top: 200px; */
-	/* margin: auto;
-    display: block; */
 }
+
 header {
 	position: relative;
 	background-color: seashell;
@@ -39,6 +42,13 @@ header {
 	/* padding-top: 50px; */
 }
 
+/* ----------------------------------------------------------------------- */
+/* 'Trans'? Seriously?? --*/
+/* "No one will see this no one will care who cares!" */
+/* Everyone will, Jake  */
+/* Everyone will, everyone does, and we're all deeply offended */
+/* ----------------------------------------------------------------------- */
+
 #trans {
 	width: 100vw;
 	height: 150px;
@@ -47,13 +57,15 @@ header {
 	display: block;
 	z-index: 3;
 }
+
+/* Me being ambitious at the time, but I also get it now, so kudos for me. */
 .hero {
 	position: relative;
 	display: none;
 }
 
+/* too much. Will definitly feel the axe */
 #flex {
-	position: relative;
 	z-index: 3;
 	position: absolute;
 	background-color: darkslategray;
@@ -67,6 +79,7 @@ header {
 	font-size: 2em;
 }
 
+/* axe. */
 .hero-inner {
 	z-index: 3;
 	width: 100vw;
